@@ -1717,3 +1717,89 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.18-12.15.16:664][309]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.10.18-12.15.16:664][309]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.18-12.15.16:664][309]AssetCheck: /Game/JumpGame 에셋 유효성 검사 중
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: ================================================
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Total job queries 167, among them cache hits 4 (2.40%), DDC hits 152 (91.02%), Duplicates 6 (3.59%)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Tracking 157 distinct input hashes that result in 150 distinct outputs (95.54%)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: RAM used: 121.26 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Shaders Compiled: 5
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Jobs assigned 5, completed 5 (100%)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.05 s
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Job execution time: average 1.23 s, max 1.57 s
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Job life time (pending + execution): average 1.27 s, max 1.61
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Shader code size: average 8.77 KiB, min 6.688 KiB, max 13.609 KiB
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.62 s
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Average processing rate: 3.09 jobs/sec
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Total thread time: 2.108 s
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Total thread preprocess time: 2.521 s
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Percentage time preprocessing: 119.55%
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Effective parallelization: 1.30 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.45 sec, max 0.45 sec, min 0.45 sec)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 35.67% of total time (compiled    1 times, average 0.75 sec, max 0.75 sec, min 0.75 sec)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.48% of total time (compiled    1 times, average 0.45 sec, max 0.45 sec, min 0.45 sec)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display:                                                 FLumenCardPS - 16.57% of total time (compiled    1 times, average 0.35 sec, max 0.35 sec, min 0.35 sec)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display:                                                 FLumenCardVS - 13.35% of total time (compiled    1 times, average 0.28 sec, max 0.28 sec, min 0.28 sec)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.93% of total time (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: === Material stats ===
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Materials Translated:    127
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Material Total Translate Time: 0.05 s
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Material Translation Only: 0.03 s (50%)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: Material Cache Hits: 23 (18%)
+[2025.10.18-12.15.30:221][403]LogShaderCompilers: Display: ================================================
+[2025.10.18-12.15.38:684][227]LogPathView: [ContentBrowserDrawer][PathView] HandleSettingChanged None
+[2025.10.18-12.15.38:684][227]LogPathView: [ContentBrowserDrawer][PathView] HandleSettingChanged None
+[2025.10.18-12.15.38:684][227]LogPathView: [ContentBrowserTab1][PathView] HandleSettingChanged None
+[2025.10.18-12.15.38:690][227]LogPathView: [ContentBrowserTab1][PathView] HandleSettingChanged None
+[2025.10.18-12.16.02:160][560]LogContentBrowser: Deferred new asset folder creation: 새 폴더
+[2025.10.18-12.16.02:165][560]LogContentBrowser: Creating deferred item: 새 폴더
+[2025.10.18-12.16.02:179][561]LogContentBrowser: Renaming the item being created (Deferred Item: 새 폴더).
+[2025.10.18-12.16.04:348][759]LogContentBrowser: Attempting asset rename: 새 폴더 -> Maps
+[2025.10.18-12.16.04:361][759]LogContentBrowser: End creating deferred item 새 폴더
+[2025.10.18-12.16.12:871][ 77]LogSlate: Window '메시지' being destroyed
+[2025.10.18-12.16.12:877][ 77]Message dialog closed, result: Cancel, title: 메시지, text: 소스 코드, 환경설정 INI 및 텍스트 파일에서 다음에 대한 찾기/바꾸기가 필요할 수 있습니다.
+
+
+JumpGame
+
+그렇지 않으면 쿠킹된 빌드에서 에셋이 누락될 수 있습니다. 이름을 변경하고 계속할까요?
+[2025.10.18-12.16.17:439][494]LogSlate: Window '메시지' being destroyed
+[2025.10.18-12.16.17:448][494]Message dialog closed, result: Ok, title: 메시지, text: 소스 코드, 환경설정 INI 및 텍스트 파일에서 다음에 대한 찾기/바꾸기가 필요할 수 있습니다.
+
+
+JumpGame
+
+그렇지 않으면 쿠킹된 빌드에서 에셋이 누락될 수 있습니다. 이름을 변경하고 계속할까요?
+[2025.10.18-12.16.17:473][494]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.18-12.16.17:474][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/JumpGame" FILE="../../../../../../Unreal/Content/Maps/JumpGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.18-12.16.17:506][494]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.10.18-12.16.17:513][494]LogSavePackage: Moving output files for package: /Game/Maps/JumpGame
+[2025.10.18-12.16.17:513][494]LogSavePackage: Moving '../../../../../../Unreal/Saved/JumpGameB177962E40398C14F43C228E4B0C2189.tmp' to '../../../../../../Unreal/Content/Maps/JumpGame.umap'
+[2025.10.18-12.16.17:518][494]LogFileHelpers: Saving map 'JumpGame' took 0.044
+[2025.10.18-12.16.17:518][494]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/JumpGame] ([1] browsable assets)...
+[2025.10.18-12.16.17:518][494]OBJ SavePackage: Finished generating thumbnails for package [/Game/JumpGame]
+[2025.10.18-12.16.17:518][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JumpGame" FILE="../../../../../../Unreal/Content/JumpGame.umap" SILENT=true
+[2025.10.18-12.16.17:519][494]LogSavePackage: Moving output files for package: /Game/JumpGame
+[2025.10.18-12.16.17:519][494]LogSavePackage: Moving '../../../../../../Unreal/Saved/JumpGameE94382C64F53A19D5530A789172EA05D.tmp' to '../../../../../../Unreal/Content/JumpGame.umap'
+[2025.10.18-12.16.17:520][494]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.936 ms (total: 533.285 ms)
+[2025.10.18-12.16.17:534][494]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2025.10.18-12.16.17:534][494]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.18-12.16.17:534][494]LogContentValidation: Enabled validators:
+[2025.10.18-12.16.17:534][494]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.18-12.16.17:534][494]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.18-12.16.17:534][494]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.18-12.16.17:534][494]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.18-12.16.17:534][494]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.18-12.16.17:534][494]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.18-12.16.17:534][494]AssetCheck: /Game/Maps/JumpGame 에셋 유효성 검사 중
+[2025.10.18-12.16.17:534][494]AssetCheck: /Game/JumpGame 에셋 유효성 검사 중

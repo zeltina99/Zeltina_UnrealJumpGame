@@ -1844,3 +1844,299 @@ JumpGame
 [2025.10.18-12.18.04:041][295]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.10.18-12.18.04:041][295]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.18-12.18.04:041][295]AssetCheck: /Game/Maps/JumpGame 에셋 유효성 검사 중
+[2025.10.18-12.18.30:353][436]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 364.809021
+[2025.10.18-12.18.31:352][440]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.18-12.18.31:352][440]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 365.474609, Update Interval: 331.116058
+[2025.10.18-12.22.26:190][476]LogSlate: Window '부모 클래스 선택' being destroyed
+[2025.10.18-12.22.26:202][476]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.10.18-12.22.26:205][476]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.10.18-12.22.26:222][478]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.10.18-12.22.34:969][297]LogContentBrowser: Attempting asset rename: NewBlueprint -> IA_Move
+[2025.10.18-12.22.35:005][297]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.10.18-12.22.52:182][ 35]LogContentBrowser: Attempting asset rename: IA_Move -> PlayerController
+[2025.10.18-12.22.52:291][ 35]LogMetaData: Removing '/Game/input/PlayerController.PlayerController:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/input/IA_Move.PackageMetaData'
+[2025.10.18-12.22.52:291][ 35]LogMetaData: Removing '/Game/input/PlayerController.SKEL_PlayerController_C:UserConstructionScript' ref from Metadata '/Game/input/IA_Move.PackageMetaData'
+[2025.10.18-12.22.52:291][ 35]LogMetaData: Removing '/Game/input/PlayerController.SKEL_PlayerController_C' ref from Metadata '/Game/input/IA_Move.PackageMetaData'
+[2025.10.18-12.22.52:291][ 35]LogMetaData: Removing '/Game/input/PlayerController.PlayerController_C' ref from Metadata '/Game/input/IA_Move.PackageMetaData'
+[2025.10.18-12.22.52:291][ 35]LogMetaData: Removing '/Game/input/PlayerController.PlayerController:EventGraph.K2Node_Event_0' ref from Metadata '/Game/input/IA_Move.PackageMetaData'
+[2025.10.18-12.22.52:291][ 35]LogMetaData: Removing '/Game/input/PlayerController.PlayerController:EventGraph.K2Node_Event_1' ref from Metadata '/Game/input/IA_Move.PackageMetaData'
+[2025.10.18-12.22.52:292][ 35]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.18-12.22.52:292][ 35]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/input/PlayerController] ([2] browsable assets)...
+[2025.10.18-12.22.52:292][ 35]OBJ SavePackage: Finished generating thumbnails for package [/Game/input/PlayerController]
+[2025.10.18-12.22.52:292][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/input/PlayerController" FILE="../../../../../../Unreal/Content/input/PlayerController.uasset" SILENT=true
+[2025.10.18-12.22.52:300][ 35]LogSavePackage: Moving output files for package: /Game/input/PlayerController
+[2025.10.18-12.22.52:300][ 35]LogSavePackage: Moving '../../../../../../Unreal/Saved/PlayerController2F2AEC334EE7264B83D2118A9EE52727.tmp' to '../../../../../../Unreal/Content/input/PlayerController.uasset'
+[2025.10.18-12.22.52:304][ 35]LogFileHelpers: InternalPromptForCheckoutAndSave took 11.975 ms (total: 651.757 ms)
+[2025.10.18-12.22.52:320][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.10.18-12.22.52:328][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2025.10.18-12.22.52:336][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.10.18-12.22.52:404][ 35]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.18-12.22.52:404][ 35]LogContentValidation: Enabled validators:
+[2025.10.18-12.22.52:404][ 35]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.18-12.22.52:404][ 35]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.18-12.22.52:404][ 35]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.18-12.22.52:404][ 35]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.18-12.22.52:404][ 35]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.18-12.22.52:404][ 35]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.18-12.22.52:404][ 35]AssetCheck: /Game/input/PlayerController 에셋 유효성 검사 중
+[2025.10.18-12.22.54:115][203]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/input/PlayerController.PlayerController
+[2025.10.18-12.22.54:116][203]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.10.18-12.22.54:213][203]LogStreaming: Display: FlushAsyncLoading(498): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.18-12.22.54:981][203]LogStaticMesh: Display: PhAT_FloorBox스태틱 메시 빌드 중(필요 메모리 예상: 0.024887MB)...
+[2025.10.18-12.22.54:982][203]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2025.10.18-12.22.58:344][444]LogSlate: Took 0.000857 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.10.18-12.23.03:008][841]LogSlate: Window 'PlayerController' being destroyed
+[2025.10.18-12.23.03:014][841]LogSlate: Window 'PlayerController' being destroyed
+[2025.10.18-12.23.03:017][841]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.10.18-12.23.03:018][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.18-12.23.03:051][841]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.10.18-12.23.14:032][ 42]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2025.10.18-12.23.14:036][ 42]LogContentBrowser: Creating deferred item: NewInputAction
+[2025.10.18-12.23.14:043][ 43]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2025.10.18-12.23.18:631][470]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Move
+[2025.10.18-12.23.18:632][470]LogContentBrowser: End creating deferred item NewInputAction
+[2025.10.18-12.23.20:526][650]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/input/IA_Move.IA_Move
+[2025.10.18-12.23.23:121][874]LogSlate: Window 'IA_Move' being destroyed
+[2025.10.18-12.23.31:186][791]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.18-12.23.31:236][791]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/input/IA_Move] ([1] browsable assets)...
+[2025.10.18-12.23.31:236][791]OBJ SavePackage: Finished generating thumbnails for package [/Game/input/IA_Move]
+[2025.10.18-12.23.31:236][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/input/IA_Move" FILE="../../../../../../Unreal/Content/input/IA_Move.uasset" SILENT=true
+[2025.10.18-12.23.31:237][791]LogSavePackage: Moving output files for package: /Game/input/IA_Move
+[2025.10.18-12.23.31:237][791]LogSavePackage: Moving '../../../../../../Unreal/Saved/IA_Move9C20FF194B9B89CDDCB150895C926FF8.tmp' to '../../../../../../Unreal/Content/input/IA_Move.uasset'
+[2025.10.18-12.23.31:244][791]LogFileHelpers: InternalPromptForCheckoutAndSave took 58.491 ms (total: 710.248 ms)
+[2025.10.18-12.23.31:284][791]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.18-12.23.31:284][791]LogContentValidation: Enabled validators:
+[2025.10.18-12.23.31:284][791]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.18-12.23.31:284][791]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.18-12.23.31:284][791]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.18-12.23.31:284][791]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.18-12.23.31:284][791]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.18-12.23.31:284][791]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.18-12.23.31:284][791]AssetCheck: /Game/input/IA_Move 에셋 유효성 검사 중
+[2025.10.18-12.23.36:571][354]LogContentBrowser: Deferred new asset file creation: IA_Move1
+[2025.10.18-12.23.36:575][354]LogContentBrowser: Creating deferred item: IA_Move1
+[2025.10.18-12.23.36:582][355]LogContentBrowser: Renaming the item being created (Deferred Item: IA_Move1).
+[2025.10.18-12.23.40:746][754]LogContentBrowser: Attempting asset rename: IA_Move1 -> IA_Jump
+[2025.10.18-12.23.40:762][754]LogContentBrowser: End creating deferred item IA_Move1
+[2025.10.18-12.23.51:793][809]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/input/IA_Jump.IA_Jump
+[2025.10.18-12.23.56:053][300]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.18-12.23.56:084][300]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/input/IA_Jump] ([1] browsable assets)...
+[2025.10.18-12.23.56:084][300]OBJ SavePackage: Finished generating thumbnails for package [/Game/input/IA_Jump]
+[2025.10.18-12.23.56:084][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/input/IA_Jump" FILE="../../../../../../Unreal/Content/input/IA_Jump.uasset" SILENT=true
+[2025.10.18-12.23.56:085][300]LogSavePackage: Moving output files for package: /Game/input/IA_Jump
+[2025.10.18-12.23.56:085][300]LogSavePackage: Moving '../../../../../../Unreal/Saved/IA_Jump641BCB31488E1E449FAA77BD383C4810.tmp' to '../../../../../../Unreal/Content/input/IA_Jump.uasset'
+[2025.10.18-12.23.56:090][300]LogFileHelpers: InternalPromptForCheckoutAndSave took 38.483 ms (total: 748.732 ms)
+[2025.10.18-12.23.56:150][300]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.18-12.23.56:150][300]LogContentValidation: Enabled validators:
+[2025.10.18-12.23.56:150][300]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.18-12.23.56:150][300]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.18-12.23.56:150][300]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.18-12.23.56:150][300]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.18-12.23.56:150][300]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.18-12.23.56:150][300]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.18-12.23.56:152][300]AssetCheck: /Game/input/IA_Jump 에셋 유효성 검사 중
+[2025.10.18-12.24.00:165][698]LogContentBrowser: Deferred new asset file creation: IA_Jump1
+[2025.10.18-12.24.00:192][698]LogContentBrowser: Creating deferred item: IA_Jump1
+[2025.10.18-12.24.00:227][699]LogContentBrowser: Renaming the item being created (Deferred Item: IA_Jump1).
+[2025.10.18-12.24.05:469][204]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 699.925720
+[2025.10.18-12.24.05:720][228]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.18-12.24.05:720][228]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 700.165955, Update Interval: 349.428986
+[2025.10.18-12.24.06:067][262]LogContentBrowser: Attempting asset rename: IA_Jump1 -> IA_Dash
+[2025.10.18-12.24.06:068][262]LogContentBrowser: End creating deferred item IA_Jump1
+[2025.10.18-12.24.19:276][533]LogContentBrowser: Deferred new asset file creation: IA_Dash1
+[2025.10.18-12.24.19:279][533]LogContentBrowser: Creating deferred item: IA_Dash1
+[2025.10.18-12.24.19:291][534]LogContentBrowser: Renaming the item being created (Deferred Item: IA_Dash1).
+[2025.10.18-12.24.22:570][849]LogContentBrowser: Attempting asset rename: IA_Dash1 -> IA_Use
+[2025.10.18-12.24.22:572][849]LogContentBrowser: End creating deferred item IA_Dash1
+[2025.10.18-12.24.32:254][854]LogContentBrowser: Deferred new asset file creation: NewInputMappingContext
+[2025.10.18-12.24.32:258][854]LogContentBrowser: Creating deferred item: NewInputMappingContext
+[2025.10.18-12.24.32:266][855]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputMappingContext).
+[2025.10.18-12.24.37:449][340]LogContentBrowser: Attempting asset rename: NewInputMappingContext -> IA_Player
+[2025.10.18-12.24.37:450][340]LogContentBrowser: End creating deferred item NewInputMappingContext
+[2025.10.18-12.24.39:751][560]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.18-12.24.39:816][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/JumpGame" FILE="../../../../../../Unreal/Content/Maps/JumpGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.18-12.24.39:850][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.10.18-12.24.39:856][560]LogSavePackage: Moving output files for package: /Game/Maps/JumpGame
+[2025.10.18-12.24.39:856][560]LogSavePackage: Moving '../../../../../../Unreal/Saved/JumpGameF751255948CF53A9290C7689DDBE04E9.tmp' to '../../../../../../Unreal/Content/Maps/JumpGame.umap'
+[2025.10.18-12.24.39:862][560]LogFileHelpers: Saving map 'JumpGame' took 0.046
+[2025.10.18-12.24.39:868][560]LogFileHelpers: InternalPromptForCheckoutAndSave took 116.075 ms (total: 864.808 ms)
+[2025.10.18-12.24.39:899][560]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.18-12.24.39:899][560]LogContentValidation: Enabled validators:
+[2025.10.18-12.24.39:899][560]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.18-12.24.39:899][560]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.18-12.24.39:899][560]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.18-12.24.39:899][560]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.18-12.24.39:899][560]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.18-12.24.39:899][560]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.18-12.24.39:899][560]AssetCheck: /Game/Maps/JumpGame 에셋 유효성 검사 중
+[2025.10.18-12.30.03:111][731]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1057.567993
+[2025.10.18-12.30.04:112][734]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.18-12.30.04:112][734]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1058.233154, Update Interval: 300.899078
+[2025.10.18-12.34.39:887][561]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.10.18-12.34.39:888][561]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/JumpGame' took 0.020
+[2025.10.18-12.34.39:889][561]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/input/IA_Dash] ([1] browsable assets)...
+[2025.10.18-12.34.39:889][561]OBJ SavePackage: Finished generating thumbnails for package [/Game/input/IA_Dash]
+[2025.10.18-12.34.39:889][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/input/IA_Dash" FILE="../../../../../../Unreal/Saved/Autosaves/Game/input/IA_Dash_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.10.18-12.34.39:889][561]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/input/IA_Dash_Auto1
+[2025.10.18-12.34.39:889][561]LogSavePackage: Moving '../../../../../../Unreal/Saved/IA_Dash_Auto1681115124446D203DD965A9A11AE59E3.tmp' to '../../../../../../Unreal/Saved/Autosaves/Game/input/IA_Dash_Auto1.uasset'
+[2025.10.18-12.34.39:890][561]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/input/IA_Use] ([1] browsable assets)...
+[2025.10.18-12.34.39:890][561]OBJ SavePackage: Finished generating thumbnails for package [/Game/input/IA_Use]
+[2025.10.18-12.34.39:890][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/input/IA_Use" FILE="../../../../../../Unreal/Saved/Autosaves/Game/input/IA_Use_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.10.18-12.34.39:891][561]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/input/IA_Use_Auto1
+[2025.10.18-12.34.39:891][561]LogSavePackage: Moving '../../../../../../Unreal/Saved/IA_Use_Auto16BADFA05412D30104E72FCA2ABACFA8D.tmp' to '../../../../../../Unreal/Saved/Autosaves/Game/input/IA_Use_Auto1.uasset'
+[2025.10.18-12.34.39:892][561]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/input/IA_Player] ([1] browsable assets)...
+[2025.10.18-12.34.39:892][561]OBJ SavePackage: Finished generating thumbnails for package [/Game/input/IA_Player]
+[2025.10.18-12.34.39:892][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/input/IA_Player" FILE="../../../../../../Unreal/Saved/Autosaves/Game/input/IA_Player_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.10.18-12.34.39:892][561]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/input/IA_Player_Auto1
+[2025.10.18-12.34.39:892][561]LogSavePackage: Moving '../../../../../../Unreal/Saved/IA_Player_Auto1C5EB51544EB3A95E6D3C9BA0C27A1912.tmp' to '../../../../../../Unreal/Saved/Autosaves/Game/input/IA_Player_Auto1.uasset'
+[2025.10.18-12.34.39:893][561]LogFileHelpers: Auto-saving content packages took 0.006
+[2025.10.18-12.35.15:479][668]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1369.936768
+[2025.10.18-12.35.16:484][671]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.18-12.35.16:484][671]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1370.604370, Update Interval: 352.752472
+[2025.10.18-12.41.32:519][799]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1746.976685
+[2025.10.18-12.41.33:518][802]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.18-12.41.33:518][802]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1747.639038, Update Interval: 314.912567
+[2025.10.18-12.47.28:887][868]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2103.343994
+[2025.10.18-12.47.29:891][871]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.18-12.47.29:891][871]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2104.012451, Update Interval: 336.303589
+[2025.10.18-12.53.44:267][994]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2478.727051
+[2025.10.18-12.53.45:266][997]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.18-12.53.45:266][997]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2479.396729, Update Interval: 328.030640
+[2025.10.18-12.56.14:802][164]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/input/PlayerController.PlayerController
+[2025.10.18-12.56.14:804][164]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.10.18-12.56.18:232][542]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.10.18-12.56.18:232][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.18-12.56.18:244][542]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/input/PlayerController.PlayerController
+[2025.10.18-12.56.18:244][542]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.10.18-12.56.18:457][542]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.10.18-12.56.35:253][536]LogSlate: Took 0.000458 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.10.18-12.56.47:435][941]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/input/IA_Player.IA_Player
+[2025.10.18-12.59.35:198][740]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.18-12.59.35:260][740]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/input/IA_Player] ([1] browsable assets)...
+[2025.10.18-12.59.35:260][740]OBJ SavePackage: Finished generating thumbnails for package [/Game/input/IA_Player]
+[2025.10.18-12.59.35:260][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/input/IA_Player" FILE="../../../../../../Unreal/Content/input/IA_Player.uasset" SILENT=true
+[2025.10.18-12.59.35:262][740]LogSavePackage: Moving output files for package: /Game/input/IA_Player
+[2025.10.18-12.59.35:262][740]LogSavePackage: Moving '../../../../../../Unreal/Saved/IA_PlayerEEE4C72F409DCB44B06EBE843015FF72.tmp' to '../../../../../../Unreal/Content/input/IA_Player.uasset'
+[2025.10.18-12.59.35:268][740]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.346 ms (total: 935.154 ms)
+[2025.10.18-12.59.35:325][740]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.18-12.59.35:325][740]LogContentValidation: Enabled validators:
+[2025.10.18-12.59.35:325][740]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.18-12.59.35:326][740]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.18-12.59.35:326][740]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.18-12.59.35:326][740]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.18-12.59.35:326][740]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.18-12.59.35:326][740]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.18-12.59.35:335][740]AssetCheck: /Game/input/IA_Player 에셋 유효성 검사 중
+[2025.10.18-12.59.53:791][374]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2848.265137
+[2025.10.18-12.59.54:791][377]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.18-12.59.54:791][377]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2848.933350, Update Interval: 322.703949
+[2025.10.18-13.00.24:415][107]LogSlate: Window '부모 클래스 선택' being destroyed
+[2025.10.18-13.00.24:426][107]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.10.18-13.00.24:429][107]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.10.18-13.00.24:444][109]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.10.18-13.00.34:592][ 69]LogContentBrowser: Attempting asset rename: NewBlueprint -> GM_JumpGame
+[2025.10.18-13.00.34:599][ 69]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.10.18-13.00.36:811][283]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GM_JumpGame.GM_JumpGame
+[2025.10.18-13.00.36:811][283]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.10.18-13.00.37:120][285]LogPSOHitching: Encountered 150 PSO creation hitches so far (56 graphics, 94 compute). 0 of them were precached.
+[2025.10.18-13.00.47:630][531]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.10.18-13.00.47:630][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.18-13.00.47:678][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.10.18-13.00.56:743][428]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.18-13.00.56:805][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/JumpGame" FILE="../../../../../../Unreal/Content/Maps/JumpGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.18-13.00.56:825][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.10.18-13.00.56:831][428]LogSavePackage: Moving output files for package: /Game/Maps/JumpGame
+[2025.10.18-13.00.56:831][428]LogSavePackage: Moving '../../../../../../Unreal/Saved/JumpGameFF0E8A654B7D08872BAB47B1D14BB428.tmp' to '../../../../../../Unreal/Content/Maps/JumpGame.umap'
+[2025.10.18-13.00.56:837][428]LogFileHelpers: Saving map 'JumpGame' took 0.032
+[2025.10.18-13.00.56:842][428]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.073 ms (total: 1.03 sec)
+[2025.10.18-13.00.56:890][428]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.18-13.00.56:890][428]LogContentValidation: Enabled validators:
+[2025.10.18-13.00.56:890][428]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.18-13.00.56:890][428]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.18-13.00.56:890][428]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.18-13.00.56:890][428]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.18-13.00.56:890][428]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.18-13.00.56:890][428]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.18-13.00.56:890][428]AssetCheck: /Game/Maps/JumpGame 에셋 유효성 검사 중
+[2025.10.18-13.01.19:498][629]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GM_JumpGame.GM_JumpGame
+[2025.10.18-13.01.19:498][629]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.10.18-13.01.26:056][376]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.10.18-13.01.26:056][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.18-13.01.26:066][376]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/GM_JumpGame.GM_JumpGame
+[2025.10.18-13.01.26:066][376]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.10.18-13.01.26:308][376]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.10.18-13.01.27:946][565]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.10.18-13.01.27:946][565]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.18-13.01.27:974][565]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.10.18-13.01.29:953][795]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.18-13.01.29:953][795]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.10.18-13.01.29:953][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.18-13.01.29:985][795]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.10.18-13.01.48:644][587]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.10.18-13.01.48:655][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.18-13.01.48:661][587]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.10.18-13.01.48:661][587]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.10.18-13.01.48:661][587]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_JumpGame
+[2025.10.18-13.01.48:665][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002982s)
+[2025.10.18-13.01.48:665][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/JumpGame.JumpGame to /Game/Maps/UEDPIE_0_JumpGame.JumpGame (0.003018s)
+[2025.10.18-13.01.48:678][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.10.18-13.01.48:680][587]LogChaosDD: Creating Chaos Debug Draw Scene for world JumpGame
+[2025.10.18-13.01.48:682][587]LogPlayLevel: PIE: World Init took: (0.001861s)
+[2025.10.18-13.01.48:684][587]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.10.18-13.01.48:684][587]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.18-13.01.48:684][587]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.18-13.01.48:684][587]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.18-13.01.48:684][587]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.18-13.01.48:684][587]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.18-13.01.48:684][587]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.18-13.01.48:684][587]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.18-13.01.48:684][587]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.18-13.01.48:684][587]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.18-13.01.48:684][587]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.18-13.01.48:684][587]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.18-13.01.48:686][587]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.18-13.01.48:708][587]LogAudioMixer: Display: Using Audio Hardware Device LG FULL HD(NVIDIA High Definition Audio)
+[2025.10.18-13.01.48:708][587]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.18-13.01.48:708][587]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.18-13.01.48:708][587]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.18-13.01.48:709][587]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.10.18-13.01.48:709][587]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.10.18-13.01.48:710][587]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.10.18-13.01.48:710][587]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.10.18-13.01.48:710][587]LogInit: FAudioDevice initialized with ID 2.
+[2025.10.18-13.01.48:710][587]LogAudio: Display: Audio Device (ID: 2) registered with world 'JumpGame'.
+[2025.10.18-13.01.48:710][587]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.18-13.01.48:716][587]LogLoad: Game class is 'GameModeBase'
+[2025.10.18-13.01.48:716][587]LogWorld: Bringing World /Game/Maps/UEDPIE_0_JumpGame.JumpGame up for play (max tick rate 0) at 2025.10.18-22.01.48
+[2025.10.18-13.01.48:716][587]LogWorld: Bringing up level for play took: 0.000996
+[2025.10.18-13.01.48:719][587]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2025.10.18-13.01.48:734][587]PIE: 서버가 로그인했습니다.
+[2025.10.18-13.01.48:734][587]PIE: 에디터에서 플레이 총 시작 시간 0.085초입니다.
+[2025.10.18-13.01.53:215][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.18-13.01.53:215][979]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_JumpGame
+[2025.10.18-13.01.53:217][979]LogWorld: UWorld::CleanupWorld for JumpGame, bSessionEnded=true, bCleanupResources=true
+[2025.10.18-13.01.53:217][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.18-13.01.53:221][979]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.18-13.01.53:223][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.18-13.01.53:237][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.18-13.01.53:237][979]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.10.18-13.01.53:237][979]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.10.18-13.01.53:239][979]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.10.18-13.01.53:244][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.10.18-13.01.53:282][980]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2025.10.18-13.02.13:419][103]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.18-13.02.13:470][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/JumpGame" FILE="../../../../../../Unreal/Content/Maps/JumpGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.18-13.02.13:490][103]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.10.18-13.02.13:498][103]LogSavePackage: Moving output files for package: /Game/Maps/JumpGame
+[2025.10.18-13.02.13:499][103]LogSavePackage: Moving '../../../../../../Unreal/Saved/JumpGameB0BA183E4AF2B80220E8EB80B480FEA9.tmp' to '../../../../../../Unreal/Content/Maps/JumpGame.umap'
+[2025.10.18-13.02.13:503][103]LogFileHelpers: Saving map 'JumpGame' took 0.033
+[2025.10.18-13.02.13:508][103]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.804 ms (total: 1.12 sec)
+[2025.10.18-13.02.13:553][103]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.18-13.02.13:553][103]LogContentValidation: Enabled validators:
+[2025.10.18-13.02.13:553][103]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.18-13.02.13:553][103]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.18-13.02.13:553][103]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.18-13.02.13:553][103]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.18-13.02.13:553][103]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.18-13.02.13:553][103]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.18-13.02.13:553][103]AssetCheck: /Game/Maps/JumpGame 에셋 유효성 검사 중

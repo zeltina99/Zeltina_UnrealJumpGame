@@ -1658,3 +1658,62 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.18-12.12.35:917][ 20]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2025.10.18-12.12.36:581][ 22]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-Pe2gqjUzz0WWxBtDXKwo-A-xH6XJLJnOUmr65qsZLBY5w]
 [2025.10.18-12.14.21:485][337]LogDerivedDataCache: C:/Users/minec/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.18-12.15.01:342][663]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.10.18-12.15.01:343][663]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.10.18-12.15.05:061][ 32]LogStreaming: Display: FlushAsyncLoading(494): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.18-12.15.06:239][ 32]LogSlate: Window '새 레벨' being destroyed
+[2025.10.18-12.15.06:246][ 32]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.10.18-12.15.06:266][ 32]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2025.10.18-12.15.06:266][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.18-12.15.06:266][ 32]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2025.10.18-12.15.06:277][ 32]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.18-12.15.06:306][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.10.18-12.15.06:310][ 32]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_2'.
+[2025.10.18-12.15.06:310][ 32]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_2
+[2025.10.18-12.15.06:319][ 32]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.10.18-12.15.06:326][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.10.18-12.15.06:328][ 32]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.10.18-12.15.06:328][ 32]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.215ms.
+[2025.10.18-12.15.15:205][229]LogSlate: Window '다른 이름으로 레벨 저장' being destroyed
+[2025.10.18-12.15.15:264][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JumpGame" FILE="../../../../../../Unreal/Content/JumpGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.18-12.15.15:279][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.10.18-12.15.15:286][229]LogSavePackage: Moving output files for package: /Game/JumpGame
+[2025.10.18-12.15.15:286][229]LogSavePackage: Moving '../../../../../../Unreal/Saved/JumpGame3A221ED2460F24887C8F219CBE306FE7.tmp' to '../../../../../../Unreal/Content/JumpGame.umap'
+[2025.10.18-12.15.15:300][229]LogFileHelpers: Saving map 'JumpGame' took 0.087
+[2025.10.18-12.15.15:300][229]Cmd: MAP LOAD FILE="../../../../../../Unreal/Content/JumpGame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.10.18-12.15.15:307][229]LogWorld: UWorld::CleanupWorld for JumpGame, bSessionEnded=true, bCleanupResources=true
+[2025.10.18-12.15.15:307][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.18-12.15.15:314][229]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.18-12.15.15:315][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.10.18-12.15.15:316][229]LogStreaming: Display: FlushAsyncLoading(497): 1 QueuedPackages, 0 AsyncPackages
+[2025.10.18-12.15.15:317][229]LogAudio: Display: Audio Device (ID: 1) registered with world 'JumpGame'.
+[2025.10.18-12.15.15:317][229]LogChaosDD: Creating Chaos Debug Draw Scene for world JumpGame
+[2025.10.18-12.15.15:328][229]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.10.18-12.15.15:335][229]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.10.18-12.15.15:340][229]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.10.18-12.15.15:340][229]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.039ms.
+[2025.10.18-12.15.15:396][229]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.18-12.15.15:396][229]LogContentValidation: Enabled validators:
+[2025.10.18-12.15.15:396][229]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.18-12.15.15:396][229]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.18-12.15.15:396][229]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.18-12.15.15:396][229]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.18-12.15.15:396][229]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.18-12.15.15:396][229]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.18-12.15.15:396][229]AssetCheck: /Game/JumpGame 에셋 유효성 검사 중
+[2025.10.18-12.15.16:501][309]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.18-12.15.16:574][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JumpGame" FILE="../../../../../../Unreal/Content/JumpGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.18-12.15.16:587][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.10.18-12.15.16:593][309]LogSavePackage: Moving output files for package: /Game/JumpGame
+[2025.10.18-12.15.16:593][309]LogSavePackage: Moving '../../../../../../Unreal/Saved/JumpGame6B1B2972416FBE348B35B6A3863EC8CB.tmp' to '../../../../../../Unreal/Content/JumpGame.umap'
+[2025.10.18-12.15.16:597][309]LogFileHelpers: Saving map 'JumpGame' took 0.025
+[2025.10.18-12.15.16:608][309]LogFileHelpers: InternalPromptForCheckoutAndSave took 107.448 ms (total: 486.348 ms)
+[2025.10.18-12.15.16:664][309]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.18-12.15.16:664][309]LogContentValidation: Enabled validators:
+[2025.10.18-12.15.16:664][309]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.18-12.15.16:664][309]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.18-12.15.16:664][309]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.18-12.15.16:664][309]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.18-12.15.16:664][309]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.18-12.15.16:664][309]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.18-12.15.16:664][309]AssetCheck: /Game/JumpGame 에셋 유효성 검사 중

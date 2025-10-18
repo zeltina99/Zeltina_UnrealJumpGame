@@ -1803,3 +1803,44 @@ JumpGame
 [2025.10.18-12.16.17:534][494]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.18-12.16.17:534][494]AssetCheck: /Game/Maps/JumpGame 에셋 유효성 검사 중
 [2025.10.18-12.16.17:534][494]AssetCheck: /Game/JumpGame 에셋 유효성 검사 중
+[2025.10.18-12.17.05:880][204]LogContentBrowser: Deferred new asset folder creation: 새 폴더
+[2025.10.18-12.17.05:885][204]LogContentBrowser: Creating deferred item: 새 폴더
+[2025.10.18-12.17.05:890][205]LogContentBrowser: Renaming the item being created (Deferred Item: 새 폴더).
+[2025.10.18-12.17.09:650][574]LogContentBrowser: Attempting asset rename: 새 폴더 -> Animation
+[2025.10.18-12.17.09:651][574]LogContentBrowser: End creating deferred item 새 폴더
+[2025.10.18-12.17.12:480][869]LogContentBrowser: Deferred new asset folder creation: 새 폴더
+[2025.10.18-12.17.12:486][869]LogContentBrowser: Creating deferred item: 새 폴더
+[2025.10.18-12.17.12:492][870]LogContentBrowser: Renaming the item being created (Deferred Item: 새 폴더).
+[2025.10.18-12.17.16:183][224]LogContentBrowser: Attempting asset rename: 새 폴더 -> Blueprints
+[2025.10.18-12.17.16:184][224]LogContentBrowser: End creating deferred item 새 폴더
+[2025.10.18-12.17.25:618][198]LogContentBrowser: Deferred new asset folder creation: 새 폴더
+[2025.10.18-12.17.25:623][198]LogContentBrowser: Creating deferred item: 새 폴더
+[2025.10.18-12.17.25:628][199]LogContentBrowser: Renaming the item being created (Deferred Item: 새 폴더).
+[2025.10.18-12.17.29:769][604]LogContentBrowser: Attempting asset rename: 새 폴더 -> Materials
+[2025.10.18-12.17.29:770][604]LogContentBrowser: End creating deferred item 새 폴더
+[2025.10.18-12.17.33:297][976]LogContentBrowser: Deferred new asset folder creation: 새 폴더
+[2025.10.18-12.17.33:302][976]LogContentBrowser: Creating deferred item: 새 폴더
+[2025.10.18-12.17.33:306][977]LogContentBrowser: Renaming the item being created (Deferred Item: 새 폴더).
+[2025.10.18-12.17.35:706][212]LogContentBrowser: Attempting asset rename: 새 폴더 -> Mesh
+[2025.10.18-12.17.35:706][212]LogContentBrowser: End creating deferred item 새 폴더
+[2025.10.18-12.17.38:248][469]LogContentBrowser: Deferred new asset folder creation: 새 폴더
+[2025.10.18-12.17.38:253][469]LogContentBrowser: Creating deferred item: 새 폴더
+[2025.10.18-12.17.38:258][470]LogContentBrowser: Renaming the item being created (Deferred Item: 새 폴더).
+[2025.10.18-12.17.40:988][737]LogContentBrowser: Attempting asset rename: 새 폴더 -> input
+[2025.10.18-12.17.40:990][737]LogContentBrowser: End creating deferred item 새 폴더
+[2025.10.18-12.18.03:877][295]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.18-12.18.03:944][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/JumpGame" FILE="../../../../../../Unreal/Content/Maps/JumpGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.18-12.18.03:965][295]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.10.18-12.18.03:972][295]LogSavePackage: Moving output files for package: /Game/Maps/JumpGame
+[2025.10.18-12.18.03:973][295]LogSavePackage: Moving '../../../../../../Unreal/Saved/JumpGameD635A00F448BA0BF2598A09B4CE181C0.tmp' to '../../../../../../Unreal/Content/Maps/JumpGame.umap'
+[2025.10.18-12.18.03:978][295]LogFileHelpers: Saving map 'JumpGame' took 0.033
+[2025.10.18-12.18.03:984][295]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.497 ms (total: 639.782 ms)
+[2025.10.18-12.18.04:041][295]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.18-12.18.04:041][295]LogContentValidation: Enabled validators:
+[2025.10.18-12.18.04:041][295]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.18-12.18.04:041][295]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.18-12.18.04:041][295]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.18-12.18.04:041][295]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.18-12.18.04:041][295]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.18-12.18.04:041][295]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.18-12.18.04:041][295]AssetCheck: /Game/Maps/JumpGame 에셋 유효성 검사 중

@@ -3392,3 +3392,507 @@ Script Stack (0 frames) :
 [2025.10.19-14.48.00:863][956]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/input/PlayerController_Auto3
 [2025.10.19-14.48.00:863][956]LogSavePackage: Moving '../../../../../../Project/Unreal/Saved/PlayerController_Auto3706930534B3D1885F91D53A93167C6D2.tmp' to '../../../../../../Project/Unreal/Saved/Autosaves/Game/input/PlayerController_Auto3.uasset'
 [2025.10.19-14.48.00:863][956]LogFileHelpers: Auto-saving content packages took 0.062
+[2025.10.19-14.48.27:563][396]LogBlueprint: Warning: [AssetLog] C:\Project\Unreal\Content\Animation\ABP_Player.uasset: [Compiler] IdleJump -> Fall  will never be taken, please connect something to  Can Enter Transition
+[2025.10.19-14.48.27:563][396]LogBlueprint: Warning: [AssetLog] C:\Project\Unreal\Content\Animation\ABP_Player.uasset: [Compiler] RunJump -> Fall  will never be taken, please connect something to  Can Enter Transition
+[2025.10.19-14.48.27:563][396]LogBlueprint: Warning: [AssetLog] C:\Project\Unreal\Content\Animation\ABP_Player.uasset: [Compiler] LandIdle -> GroundCach  will never be taken, please connect something to  Can Enter Transition
+[2025.10.19-14.48.27:563][396]LogBlueprint: Warning: [AssetLog] C:\Project\Unreal\Content\Animation\ABP_Player.uasset: [Compiler] LandRun -> GroundCach  will never be taken, please connect something to  Can Enter Transition
+[2025.10.19-14.48.27:616][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.10.19-14.49.10:894][832]LogSlate: Window '부모 클래스 선택' being destroyed
+[2025.10.19-14.49.10:901][832]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.10.19-14.49.10:908][832]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.10.19-14.49.10:917][833]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.10.19-14.49.16:684][238]LogContentBrowser: Attempting asset rename: NewBlueprint -> Cube
+[2025.10.19-14.49.16:691][238]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.10.19-14.49.17:783][318]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Cube.Cube
+[2025.10.19-14.49.17:783][318]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2025.10.19-14.49.22:823][866]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2025.10.19-14.49.29:378][548]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_27
+[2025.10.19-14.49.50:690][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.10.19-14.50.05:799][530]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.10.19-14.50.05:804][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.19-14.50.05:805][530]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_JumpGame
+[2025.10.19-14.50.05:806][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001152s)
+[2025.10.19-14.50.05:806][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/JumpGame.JumpGame to /Game/Maps/UEDPIE_0_JumpGame.JumpGame (0.001179s)
+[2025.10.19-14.50.05:821][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.10.19-14.50.05:823][530]LogChaosDD: Creating Chaos Debug Draw Scene for world JumpGame
+[2025.10.19-14.50.05:824][530]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2025.10.19-14.50.05:825][530]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.10.19-14.50.05:825][530]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.19-14.50.05:825][530]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.19-14.50.05:825][530]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.19-14.50.05:825][530]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.19-14.50.05:825][530]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.19-14.50.05:825][530]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.19-14.50.05:825][530]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.19-14.50.05:825][530]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.19-14.50.05:825][530]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.19-14.50.05:825][530]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.19-14.50.05:825][530]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.19-14.50.05:827][530]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.19-14.50.05:849][530]LogAudioMixer: Display: Using Audio Hardware Device LG FULL HD(NVIDIA High Definition Audio)
+[2025.10.19-14.50.05:850][530]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.19-14.50.05:850][530]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.19-14.50.05:850][530]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.19-14.50.05:850][530]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.10.19-14.50.05:850][530]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.10.19-14.50.05:852][530]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.10.19-14.50.05:852][530]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.10.19-14.50.05:852][530]LogInit: FAudioDevice initialized with ID 14.
+[2025.10.19-14.50.05:852][530]LogAudio: Display: Audio Device (ID: 14) registered with world 'JumpGame'.
+[2025.10.19-14.50.05:852][530]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.10.19-14.50.05:855][530]LogLoad: Game class is 'GM_JumpGame_C'
+[2025.10.19-14.50.05:855][530]LogWorld: Bringing World /Game/Maps/UEDPIE_0_JumpGame.JumpGame up for play (max tick rate 0) at 2025.10.19-23.50.05
+[2025.10.19-14.50.05:855][530]LogWorld: Bringing up level for play took: 0.000542
+[2025.10.19-14.50.05:858][530]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2025.10.19-14.50.05:860][530]PIE: 서버가 로그인했습니다.
+[2025.10.19-14.50.05:861][530]PIE: 에디터에서 플레이 총 시작 시간 0.057초입니다.
+[2025.10.19-14.50.07:494][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-14.50.07:494][653]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_JumpGame
+[2025.10.19-14.50.07:494][653]LogWorld: UWorld::CleanupWorld for JumpGame, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-14.50.07:494][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-14.50.07:497][653]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.19-14.50.07:500][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-14.50.07:515][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-14.50.07:515][653]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.10.19-14.50.07:515][653]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.10.19-14.50.07:517][653]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.10.19-14.50.07:522][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.10.19-14.50.07:644][655]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2025.10.19-14.50.08:742][745]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Cube.Cube_C
+[2025.10.19-14.50.08:742][745]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Cube.Cube_C
+[2025.10.19-14.50.08:744][745]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Cube.Cube as actor: Cube_C /Game/Maps/JumpGame.JumpGame:PersistentLevel.Cube_C_0
+[2025.10.19-14.50.08:744][745]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Cube.Cube as actor: Cube_C /Game/Maps/JumpGame.JumpGame:PersistentLevel.Cube_C_0
+[2025.10.19-14.50.11:269][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.10.19-14.50.11:271][953]LogEditorActor: Deleted 0 Actors (0.018 secs)
+[2025.10.19-14.50.11:275][953]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Cube.Cube_C
+[2025.10.19-14.50.11:275][953]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Cube.Cube_C
+[2025.10.19-14.50.11:276][953]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Cube.Cube as actor: Cube_C /Game/Maps/JumpGame.JumpGame:PersistentLevel.Cube_C_1
+[2025.10.19-14.50.11:277][953]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Cube.Cube as actor: Cube_C /Game/Maps/JumpGame.JumpGame:PersistentLevel.Cube_C_1
+[2025.10.19-14.50.17:449][474]Cmd: DUPLICATE
+[2025.10.19-14.50.17:449][474]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.50.27:431][211]Cmd: DUPLICATE
+[2025.10.19-14.50.27:431][211]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.50.33:836][694]Cmd: DUPLICATE
+[2025.10.19-14.50.33:836][694]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.50.39:005][ 51]Cmd: DUPLICATE
+[2025.10.19-14.50.39:005][ 51]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.50.48:360][726]Cmd: DUPLICATE
+[2025.10.19-14.50.48:360][726]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.51.00:642][628]Cmd: DUPLICATE
+[2025.10.19-14.51.00:642][628]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.51.09:546][281]Cmd: DUPLICATE
+[2025.10.19-14.51.09:546][281]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.51.12:173][462]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2451.668213
+[2025.10.19-14.51.12:436][483]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.19-14.51.12:436][483]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2451.919434, Update Interval: 307.137665
+[2025.10.19-14.51.18:341][907]Cmd: DUPLICATE
+[2025.10.19-14.51.18:341][907]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.51.28:489][663]Cmd: DUPLICATE
+[2025.10.19-14.51.28:489][663]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.51.35:579][202]Cmd: DUPLICATE
+[2025.10.19-14.51.35:579][202]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.51.41:597][665]Cmd: DUPLICATE
+[2025.10.19-14.51.41:597][665]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.51.49:359][258]Cmd: DUPLICATE
+[2025.10.19-14.51.49:359][258]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.51.53:742][571]Cmd: DUPLICATE
+[2025.10.19-14.51.53:742][571]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.52.00:249][ 95]Cmd: DUPLICATE
+[2025.10.19-14.52.00:249][ 95]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.52.16:737][402]Cmd: DUPLICATE
+[2025.10.19-14.52.16:737][402]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: ================================================
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Total job queries 201, among them cache hits 35 (17.41%), DDC hits 156 (77.61%), Duplicates 5 (2.49%)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Tracking 161 distinct input hashes that result in 144 distinct outputs (89.44%)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: RAM used: 117.81 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Shaders Compiled: 5
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Jobs assigned 5, completed 5 (100%)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.08 s
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Job execution time: average 5.87 s, max 6.10 s
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Job life time (pending + execution): average 5.96 s, max 6.18
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Shader code size: average 7.342 KiB, min 4.219 KiB, max 11.066 KiB
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.18 s
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Average processing rate: 0.81 jobs/sec
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Total thread time: 1.732 s
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Total thread preprocess time: 2.834 s
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Percentage time preprocessing: 163.65%
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Effective parallelization: 0.28 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 0.62 sec, max 0.62 sec, min 0.62 sec)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 35.62% of total time (compiled    1 times, average 0.62 sec, max 0.62 sec, min 0.62 sec)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.30% of total time (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display:                                                 FLumenCardPS - 15.56% of total time (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display:                                                 FLumenCardVS - 13.88% of total time (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.63% of total time (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: === Material stats ===
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Materials Translated:    133
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Material Total Translate Time: 0.06 s
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Material Translation Only: 0.03 s (49%)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: Material Cache Hits: 29 (22%)
+[2025.10.19-14.52.23:453][930]LogShaderCompilers: Display: ================================================
+[2025.10.19-14.52.28:750][380]Cmd: DUPLICATE
+[2025.10.19-14.52.28:750][380]Cmd: ACTOR DUPLICATE
+[2025.10.19-14.52.32:872][703]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-14.52.32:908][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/JumpGame" FILE="../../../../../../Project/Unreal/Content/Maps/JumpGame.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.10.19-14.52.32:956][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.10.19-14.52.32:966][703]LogSavePackage: Moving output files for package: /Game/Maps/JumpGame
+[2025.10.19-14.52.32:967][703]LogSavePackage: Moving '../../../../../../Project/Unreal/Saved/JumpGame7CE4683A429756AB6A5E9ABB711305FE.tmp' to '../../../../../../Project/Unreal/Content/Maps/JumpGame.umap'
+[2025.10.19-14.52.32:978][703]LogFileHelpers: Saving map 'JumpGame' took 0.069
+[2025.10.19-14.52.32:985][703]LogFileHelpers: InternalPromptForCheckoutAndSave took 112.462 ms (total: 2.40 sec)
+[2025.10.19-14.52.33:045][703]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-14.52.33:045][703]LogContentValidation: Enabled validators:
+[2025.10.19-14.52.33:045][703]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-14.52.33:045][703]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-14.52.33:045][703]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-14.52.33:045][703]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-14.52.33:045][703]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-14.52.33:045][703]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-14.52.33:045][703]AssetCheck: /Game/Maps/JumpGame 에셋 유효성 검사 중
+[2025.10.19-14.52.41:991][387]Cmd: SELECT NONE
+[2025.10.19-14.52.50:635][ 63]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.10.19-14.52.50:642][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.19-14.52.50:680][ 63]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_JumpGame
+[2025.10.19-14.52.50:683][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002562s)
+[2025.10.19-14.52.50:683][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/JumpGame.JumpGame to /Game/Maps/UEDPIE_0_JumpGame.JumpGame (0.002626s)
+[2025.10.19-14.52.50:703][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.10.19-14.52.50:704][ 63]LogChaosDD: Creating Chaos Debug Draw Scene for world JumpGame
+[2025.10.19-14.52.50:705][ 63]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2025.10.19-14.52.50:706][ 63]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.10.19-14.52.50:706][ 63]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.19-14.52.50:706][ 63]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.19-14.52.50:706][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.19-14.52.50:706][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.19-14.52.50:706][ 63]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.19-14.52.50:706][ 63]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.19-14.52.50:706][ 63]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.19-14.52.50:706][ 63]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.19-14.52.50:706][ 63]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.19-14.52.50:706][ 63]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.19-14.52.50:706][ 63]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.19-14.52.50:708][ 63]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.19-14.52.50:731][ 63]LogAudioMixer: Display: Using Audio Hardware Device LG FULL HD(NVIDIA High Definition Audio)
+[2025.10.19-14.52.50:731][ 63]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.19-14.52.50:731][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.19-14.52.50:731][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.19-14.52.50:732][ 63]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.10.19-14.52.50:732][ 63]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.10.19-14.52.50:734][ 63]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.10.19-14.52.50:734][ 63]LogInit: FAudioDevice initialized with ID 15.
+[2025.10.19-14.52.50:734][ 63]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.10.19-14.52.50:734][ 63]LogAudio: Display: Audio Device (ID: 15) registered with world 'JumpGame'.
+[2025.10.19-14.52.50:734][ 63]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.10.19-14.52.50:736][ 63]LogLoad: Game class is 'GM_JumpGame_C'
+[2025.10.19-14.52.50:737][ 63]LogWorld: Bringing World /Game/Maps/UEDPIE_0_JumpGame.JumpGame up for play (max tick rate 0) at 2025.10.19-23.52.50
+[2025.10.19-14.52.50:737][ 63]LogWorld: Bringing up level for play took: 0.000860
+[2025.10.19-14.52.50:739][ 63]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2025.10.19-14.52.50:743][ 63]PIE: 서버가 로그인했습니다.
+[2025.10.19-14.52.50:743][ 63]PIE: 에디터에서 플레이 총 시작 시간 0.103초입니다.
+[2025.10.19-14.52.56:691][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-14.52.56:691][643]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_JumpGame
+[2025.10.19-14.52.56:691][643]LogWorld: UWorld::CleanupWorld for JumpGame, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-14.52.56:691][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-14.52.56:695][643]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.19-14.52.56:699][643]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-14.52.56:715][643]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-14.52.56:715][643]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.10.19-14.52.56:715][643]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.10.19-14.52.56:717][643]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.10.19-14.52.56:723][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.10.19-14.52.56:861][645]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2025.10.19-14.54.12:896][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-14.54.12:960][ 42]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2025.10.19-14.54.12:967][ 42]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Player.BP_Player]
+[2025.10.19-14.54.12:967][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2025.10.19-14.54.12:967][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../../Project/Unreal/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2025.10.19-14.54.12:976][ 42]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2025.10.19-14.54.12:977][ 42]LogSavePackage: Moving '../../../../../../Project/Unreal/Saved/BP_Player1242BAF8495784A99F37CAB0EDD3FC38.tmp' to '../../../../../../Project/Unreal/Content/Blueprints/BP_Player.uasset'
+[2025.10.19-14.54.12:986][ 42]LogFileHelpers: InternalPromptForCheckoutAndSave took 88.751 ms (total: 2.49 sec)
+[2025.10.19-14.54.13:022][ 42]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-14.54.13:022][ 42]LogContentValidation: Enabled validators:
+[2025.10.19-14.54.13:022][ 42]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-14.54.13:022][ 42]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-14.54.13:022][ 42]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-14.54.13:022][ 42]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-14.54.13:022][ 42]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-14.54.13:022][ 42]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-14.54.13:022][ 42]AssetCheck: /Game/Blueprints/BP_Player 에셋 유효성 검사 중
+[2025.10.19-14.54.43:984][ 21]LogBlueprint: Warning: [AssetLog] C:\Project\Unreal\Content\Animation\ABP_Player.uasset: [Compiler] IdleJump -> Fall  will never be taken, please connect something to  Can Enter Transition
+[2025.10.19-14.54.43:984][ 21]LogBlueprint: Warning: [AssetLog] C:\Project\Unreal\Content\Animation\ABP_Player.uasset: [Compiler] RunJump -> Fall  will never be taken, please connect something to  Can Enter Transition
+[2025.10.19-14.54.43:984][ 21]LogBlueprint: Warning: [AssetLog] C:\Project\Unreal\Content\Animation\ABP_Player.uasset: [Compiler] LandIdle -> GroundCach  will never be taken, please connect something to  Can Enter Transition
+[2025.10.19-14.54.43:984][ 21]LogBlueprint: Warning: [AssetLog] C:\Project\Unreal\Content\Animation\ABP_Player.uasset: [Compiler] LandRun -> GroundCach  will never be taken, please connect something to  Can Enter Transition
+[2025.10.19-14.54.44:048][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.10.19-14.54.44:668][ 74]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.10.19-14.54.44:674][ 74]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.19-14.54.44:675][ 74]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_JumpGame
+[2025.10.19-14.54.44:676][ 74]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001857s)
+[2025.10.19-14.54.44:676][ 74]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/JumpGame.JumpGame to /Game/Maps/UEDPIE_0_JumpGame.JumpGame (0.001880s)
+[2025.10.19-14.54.44:693][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.10.19-14.54.44:694][ 74]LogChaosDD: Creating Chaos Debug Draw Scene for world JumpGame
+[2025.10.19-14.54.44:696][ 74]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2025.10.19-14.54.44:696][ 74]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.10.19-14.54.44:696][ 74]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.19-14.54.44:696][ 74]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.19-14.54.44:696][ 74]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.19-14.54.44:696][ 74]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.19-14.54.44:696][ 74]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.19-14.54.44:696][ 74]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.19-14.54.44:696][ 74]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.19-14.54.44:696][ 74]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.19-14.54.44:696][ 74]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.19-14.54.44:696][ 74]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.19-14.54.44:696][ 74]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.19-14.54.44:698][ 74]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.19-14.54.44:722][ 74]LogAudioMixer: Display: Using Audio Hardware Device LG FULL HD(NVIDIA High Definition Audio)
+[2025.10.19-14.54.44:722][ 74]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.19-14.54.44:722][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.19-14.54.44:722][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.19-14.54.44:723][ 74]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.10.19-14.54.44:723][ 74]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.10.19-14.54.44:725][ 74]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.10.19-14.54.44:725][ 74]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.10.19-14.54.44:725][ 74]LogInit: FAudioDevice initialized with ID 16.
+[2025.10.19-14.54.44:725][ 74]LogAudio: Display: Audio Device (ID: 16) registered with world 'JumpGame'.
+[2025.10.19-14.54.44:725][ 74]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.10.19-14.54.44:773][ 74]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-14.54.44:773][ 74]LogLoad: Game class is 'GM_JumpGame_C'
+[2025.10.19-14.54.44:774][ 74]LogWorld: Bringing World /Game/Maps/UEDPIE_0_JumpGame.JumpGame up for play (max tick rate 0) at 2025.10.19-23.54.44
+[2025.10.19-14.54.44:774][ 74]LogWorld: Bringing up level for play took: 0.001028
+[2025.10.19-14.54.44:776][ 74]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2025.10.19-14.54.44:780][ 74]PIE: 서버가 로그인했습니다.
+[2025.10.19-14.54.44:782][ 74]PIE: 에디터에서 플레이 총 시작 시간 0.108초입니다.
+[2025.10.19-14.54.46:389][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-14.54.46:389][198]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_JumpGame
+[2025.10.19-14.54.46:390][198]LogSlate: Window 'JumpGame 프리뷰 [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.19-14.54.46:409][198]LogWorld: UWorld::CleanupWorld for JumpGame, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-14.54.46:409][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-14.54.46:411][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.19-14.54.46:415][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-14.54.46:432][198]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.19-14.54.46:432][198]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.10.19-14.54.46:432][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.10.19-14.54.46:434][198]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.10.19-14.54.46:439][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.10.19-14.54.46:472][201]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: ================================================
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Total job queries 202, among them cache hits 35 (17.33%), DDC hits 156 (77.23%), Duplicates 5 (2.48%)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Tracking 162 distinct input hashes that result in 145 distinct outputs (89.51%)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: RAM used: 118.08 KiB of 1.60 GiB budget. Usage: 0.01%
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Shaders Compiled: 6
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100%)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Average time worker was idle: 225.19 s
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.10 s
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Job execution time: average 5.08 s, max 6.10 s
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Job life time (pending + execution): average 5.17 s, max 6.18
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Shader code size: average 8.025 KiB, min 4.219 KiB, max 11.445 KiB
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.40 s
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Average processing rate: 0.81 jobs/sec
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Total thread time: 2.34 s
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Total thread preprocess time: 2.845 s
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Percentage time preprocessing: 121.62%
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Effective parallelization: 0.32 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 0.61 sec, max 0.62 sec, min 0.61 sec)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 52.35% of total time (compiled    2 times, average 0.61 sec, max 0.62 sec, min 0.61 sec)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 15.77% of total time (compiled    1 times, average 0.37 sec, max 0.37 sec, min 0.37 sec)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display:                                                 FLumenCardPS - 11.52% of total time (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display:                                                 FLumenCardVS - 10.27% of total time (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.09% of total time (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: === Material stats ===
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Materials Translated:    133
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Material Total Translate Time: 0.06 s
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Material Translation Only: 0.03 s (49%)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: Material Cache Hits: 29 (22%)
+[2025.10.19-14.55.23:459][946]LogShaderCompilers: Display: ================================================
+[2025.10.19-14.56.42:318][402]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-14.56.42:354][402]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Cube] ([2] browsable assets)...
+[2025.10.19-14.56.42:362][402]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Cube.Cube]
+[2025.10.19-14.56.42:362][402]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Cube]
+[2025.10.19-14.56.42:362][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Cube" FILE="../../../../../../Project/Unreal/Content/Blueprints/Cube.uasset" SILENT=true
+[2025.10.19-14.56.42:365][402]LogSavePackage: Moving output files for package: /Game/Blueprints/Cube
+[2025.10.19-14.56.42:365][402]LogSavePackage: Moving '../../../../../../Project/Unreal/Saved/Cube34B9B0344C52048097F463960ED39B5B.tmp' to '../../../../../../Project/Unreal/Content/Blueprints/Cube.uasset'
+[2025.10.19-14.56.42:374][402]LogFileHelpers: InternalPromptForCheckoutAndSave took 57.715 ms (total: 2.55 sec)
+[2025.10.19-14.56.42:420][402]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-14.56.42:420][402]LogContentValidation: Enabled validators:
+[2025.10.19-14.56.42:420][402]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-14.56.42:420][402]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-14.56.42:420][402]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-14.56.42:420][402]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-14.56.42:420][402]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-14.56.42:420][402]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-14.56.42:420][402]AssetCheck: /Game/Blueprints/Cube 에셋 유효성 검사 중
+[2025.10.19-14.56.44:789][645]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-14.56.44:836][645]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Animation/ABP_Player] ([2] browsable assets)...
+[2025.10.19-14.56.44:837][645]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	ABP_Player_C /Engine/Transient.World_9:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Player_C_180
+	Function /Game/Animation/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:00A6
+[2025.10.19-14.56.44:837][645]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	ABP_Player_C /Engine/Transient.World_9:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Player_C_180
+	Function /Game/Animation/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:015A
+[2025.10.19-14.56.44:837][645]LogScript: Warning: CallFunc_GetMovementComponent_ReturnValue 프로퍼티를 읽으려던 중 None에 접근했습니다.
+	ABP_Player_C /Engine/Transient.World_9:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Player_C_180
+	Function /Game/Animation/ABP_Player.ABP_Player_C:ExecuteUbergraph_ABP_Player:0189
+[2025.10.19-14.56.44:843][645]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Animation/ABP_Player.ABP_Player]
+[2025.10.19-14.56.44:843][645]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/ABP_Player]
+[2025.10.19-14.56.44:843][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/ABP_Player" FILE="../../../../../../Project/Unreal/Content/Animation/ABP_Player.uasset" SILENT=true
+[2025.10.19-14.56.44:877][645]LogSavePackage: Moving output files for package: /Game/Animation/ABP_Player
+[2025.10.19-14.56.44:878][645]LogSavePackage: Moving '../../../../../../Project/Unreal/Saved/ABP_PlayerD9C2AD6C494E81522288B9B4648FA004.tmp' to '../../../../../../Project/Unreal/Content/Animation/ABP_Player.uasset'
+[2025.10.19-14.56.44:885][645]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.597 ms (total: 2.65 sec)
+[2025.10.19-14.56.44:938][645]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-14.56.44:938][645]LogContentValidation: Enabled validators:
+[2025.10.19-14.56.44:938][645]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-14.56.44:938][645]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-14.56.44:938][645]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-14.56.44:938][645]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-14.56.44:938][645]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-14.56.44:938][645]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-14.56.44:938][645]AssetCheck: /Game/Animation/ABP_Player 에셋 유효성 검사 중
+[2025.10.19-14.56.47:611][946]LogBlueprint: Warning: [AssetLog] C:\Project\Unreal\Content\Animation\ABP_Player.uasset: [Compiler] IdleJump -> Fall  will never be taken, please connect something to  Can Enter Transition
+[2025.10.19-14.56.47:611][946]LogBlueprint: Warning: [AssetLog] C:\Project\Unreal\Content\Animation\ABP_Player.uasset: [Compiler] RunJump -> Fall  will never be taken, please connect something to  Can Enter Transition
+[2025.10.19-14.56.47:611][946]LogBlueprint: Warning: [AssetLog] C:\Project\Unreal\Content\Animation\ABP_Player.uasset: [Compiler] LandIdle -> GroundCach  will never be taken, please connect something to  Can Enter Transition
+[2025.10.19-14.56.47:612][946]LogBlueprint: Warning: [AssetLog] C:\Project\Unreal\Content\Animation\ABP_Player.uasset: [Compiler] LandRun -> GroundCach  will never be taken, please connect something to  Can Enter Transition
+[2025.10.19-14.56.47:652][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.10.19-14.56.53:831][544]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2793.328125
+[2025.10.19-14.56.54:074][561]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.19-14.56.54:074][561]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2793.556885, Update Interval: 346.008484
+[2025.10.19-14.56.58:228][973]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.10.19-14.56.58:246][973]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.19-14.56.58:246][973]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_JumpGame
+[2025.10.19-14.56.58:248][973]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001953s)
+[2025.10.19-14.56.58:248][973]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/JumpGame.JumpGame to /Game/Maps/UEDPIE_0_JumpGame.JumpGame (0.001981s)
+[2025.10.19-14.56.58:265][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.10.19-14.56.58:266][973]LogChaosDD: Creating Chaos Debug Draw Scene for world JumpGame
+[2025.10.19-14.56.58:268][973]LogPlayLevel: PIE: World Init took: (0.001131s)
+[2025.10.19-14.56.58:268][973]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2025.10.19-14.56.58:268][973]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.19-14.56.58:268][973]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.19-14.56.58:268][973]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.19-14.56.58:268][973]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.19-14.56.58:268][973]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.19-14.56.58:268][973]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.19-14.56.58:268][973]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.19-14.56.58:268][973]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.19-14.56.58:268][973]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.19-14.56.58:268][973]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.19-14.56.58:268][973]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.19-14.56.58:270][973]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.19-14.56.58:294][973]LogAudioMixer: Display: Using Audio Hardware Device LG FULL HD(NVIDIA High Definition Audio)
+[2025.10.19-14.56.58:294][973]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.19-14.56.58:294][973]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.19-14.56.58:294][973]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.19-14.56.58:294][973]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2025.10.19-14.56.58:294][973]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2025.10.19-14.56.58:297][973]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2025.10.19-14.56.58:297][973]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2025.10.19-14.56.58:297][973]LogInit: FAudioDevice initialized with ID 17.
+[2025.10.19-14.56.58:297][973]LogAudio: Display: Audio Device (ID: 17) registered with world 'JumpGame'.
+[2025.10.19-14.56.58:297][973]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2025.10.19-14.56.58:353][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-14.56.58:353][973]LogLoad: Game class is 'GM_JumpGame_C'
+[2025.10.19-14.56.58:354][973]LogWorld: Bringing World /Game/Maps/UEDPIE_0_JumpGame.JumpGame up for play (max tick rate 0) at 2025.10.19-23.56.58
+[2025.10.19-14.56.58:354][973]LogWorld: Bringing up level for play took: 0.001019
+[2025.10.19-14.56.58:356][973]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2025.10.19-14.56.58:360][973]PIE: 서버가 로그인했습니다.
+[2025.10.19-14.56.58:362][973]PIE: 에디터에서 플레이 총 시작 시간 0.117초입니다.
+[2025.10.19-14.56.59:437][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-14.56.59:437][ 63]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_JumpGame
+[2025.10.19-14.56.59:437][ 63]LogSlate: Window 'JumpGame 프리뷰 [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.19-14.56.59:443][ 63]LogWorld: UWorld::CleanupWorld for JumpGame, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-14.56.59:443][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-14.56.59:446][ 63]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.19-14.56.59:448][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-14.56.59:464][ 63]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.19-14.56.59:464][ 63]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2025.10.19-14.56.59:464][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2025.10.19-14.56.59:466][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2025.10.19-14.56.59:472][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.10.19-14.56.59:500][ 65]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2025.10.19-14.57.02:386][389]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.10.19-14.57.02:391][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.19-14.57.02:392][389]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_JumpGame
+[2025.10.19-14.57.02:394][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001816s)
+[2025.10.19-14.57.02:394][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/JumpGame.JumpGame to /Game/Maps/UEDPIE_0_JumpGame.JumpGame (0.001840s)
+[2025.10.19-14.57.02:408][389]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.10.19-14.57.02:408][389]LogChaosDD: Creating Chaos Debug Draw Scene for world JumpGame
+[2025.10.19-14.57.02:409][389]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2025.10.19-14.57.02:410][389]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.10.19-14.57.02:410][389]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.19-14.57.02:410][389]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.19-14.57.02:410][389]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.19-14.57.02:410][389]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.19-14.57.02:410][389]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.19-14.57.02:410][389]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.19-14.57.02:410][389]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.19-14.57.02:410][389]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.19-14.57.02:410][389]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.19-14.57.02:410][389]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.19-14.57.02:410][389]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.19-14.57.02:412][389]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.19-14.57.02:434][389]LogAudioMixer: Display: Using Audio Hardware Device LG FULL HD(NVIDIA High Definition Audio)
+[2025.10.19-14.57.02:434][389]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.19-14.57.02:434][389]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.19-14.57.02:434][389]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.19-14.57.02:434][389]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.10.19-14.57.02:434][389]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.10.19-14.57.02:436][389]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.10.19-14.57.02:436][389]LogInit: FAudioDevice initialized with ID 18.
+[2025.10.19-14.57.02:436][389]LogAudio: Display: Audio Device (ID: 18) registered with world 'JumpGame'.
+[2025.10.19-14.57.02:436][389]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.10.19-14.57.02:436][389]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.10.19-14.57.02:487][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-14.57.02:487][389]LogLoad: Game class is 'GM_JumpGame_C'
+[2025.10.19-14.57.02:488][389]LogWorld: Bringing World /Game/Maps/UEDPIE_0_JumpGame.JumpGame up for play (max tick rate 0) at 2025.10.19-23.57.02
+[2025.10.19-14.57.02:488][389]LogWorld: Bringing up level for play took: 0.000938
+[2025.10.19-14.57.02:490][389]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2025.10.19-14.57.02:495][389]PIE: 서버가 로그인했습니다.
+[2025.10.19-14.57.02:497][389]PIE: 에디터에서 플레이 총 시작 시간 0.106초입니다.
+[2025.10.19-14.57.04:017][520]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.19-14.57.04:017][520]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_JumpGame
+[2025.10.19-14.57.04:017][520]LogSlate: Window 'JumpGame 프리뷰 [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.19-14.57.04:023][520]LogWorld: UWorld::CleanupWorld for JumpGame, bSessionEnded=true, bCleanupResources=true
+[2025.10.19-14.57.04:023][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-14.57.04:025][520]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.19-14.57.04:028][520]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.19-14.57.04:041][520]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.10.19-14.57.04:041][520]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.10.19-14.57.04:043][520]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.10.19-14.57.04:048][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.10.19-14.57.04:083][521]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2025.10.19-14.57.05:311][662]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.19-14.57.05:373][662]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Player] ([2] browsable assets)...
+[2025.10.19-14.57.05:379][662]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Player.BP_Player]
+[2025.10.19-14.57.05:379][662]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Player]
+[2025.10.19-14.57.05:379][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Player" FILE="../../../../../../Project/Unreal/Content/Blueprints/BP_Player.uasset" SILENT=true
+[2025.10.19-14.57.05:389][662]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_Player
+[2025.10.19-14.57.05:390][662]LogSavePackage: Moving '../../../../../../Project/Unreal/Saved/BP_Player41E52E0942E96BA7217C31BDF22759B0.tmp' to '../../../../../../Project/Unreal/Content/Blueprints/BP_Player.uasset'
+[2025.10.19-14.57.05:398][662]LogFileHelpers: InternalPromptForCheckoutAndSave took 86.635 ms (total: 2.73 sec)
+[2025.10.19-14.57.05:453][662]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.19-14.57.05:453][662]LogContentValidation: Enabled validators:
+[2025.10.19-14.57.05:453][662]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.19-14.57.05:453][662]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.19-14.57.05:453][662]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.19-14.57.05:453][662]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.19-14.57.05:453][662]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.19-14.57.05:454][662]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.19-14.57.05:454][662]AssetCheck: /Game/Blueprints/BP_Player 에셋 유효성 검사 중
